@@ -243,7 +243,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63CB1A5A19417B4B00BA1334 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		63CB1A5B19417EE800BA1334 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		63DB8CDA1935BBC500B6DFC6 /* PompaDroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PompaDroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB8CDD1935BBC500B6DFC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		63DB8CDF1935BBC500B6DFC6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -762,7 +762,7 @@
 				63DB8D1F1935BBC500B6DFC6 /* Libraries */,
 				63DB8F841935BBC700B6DFC6 /* Classes */,
 				63DB8F801935BBC700B6DFC6 /* Supporting Files */,
-				63CB1A5A19417B4B00BA1334 /* README.md */,
+				63CB1A5B19417EE800BA1334 /* README.md */,
 			);
 			path = PompaDroid;
 			sourceTree = "<group>";
