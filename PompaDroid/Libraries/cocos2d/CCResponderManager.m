@@ -115,9 +115,9 @@
         // scan through children, and build responderlist
         for (CCNode *child in node.children)
         {
-            if ((child.zOrder >= 0) && (!nodeAdded) && (node.isUserInteractionEnabled))
+            if ((child.zOrder >= 0) && (!nodeAdded) && (child.isUserInteractionEnabled))
             {
-                [self addResponder:node];
+                [self addResponder:child];
                 nodeAdded = YES;
             }
             [self buildResponderList:child];

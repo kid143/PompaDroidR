@@ -8,8 +8,7 @@
 // -----------------------------------------------------------------------
 
 #import "AppDelegate.h"
-#import "IntroScene.h"
-#import "HelloWorldScene.h"
+#import "GameScene.h"
 
 @implementation AppDelegate
 
@@ -46,10 +45,25 @@
 	return YES;
 }
 
+- (void)applicationDidEnterBackground:(UIApplication *)application
+{
+    [[CCDirector sharedDirector] pause];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+    [[CCDirector sharedDirector] resume];
+}
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    [[OALSimpleAudio sharedInstance] unloadAllEffects];
+}
+
 -(CCScene *)startScene
 {
 	// This method should return the very first scene to be run when your app starts.
-	return [IntroScene scene];
+	return [GameScene scene];
 }
 
 @end

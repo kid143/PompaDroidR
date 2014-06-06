@@ -210,8 +210,26 @@
 		63DB8F7F1935BBC700B6DFC6 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8F7E1935BBC700B6DFC6 /* LICENSE_Chipmunk.txt */; };
 		63DB8F831935BBC700B6DFC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8F821935BBC700B6DFC6 /* main.m */; };
 		63DB8F871935BBC700B6DFC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8F861935BBC700B6DFC6 /* AppDelegate.m */; };
-		63DB8F8A1935BBC700B6DFC6 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8F891935BBC700B6DFC6 /* HelloWorldScene.m */; };
-		63DB8F8D1935BBC700B6DFC6 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8F8C1935BBC700B6DFC6 /* IntroScene.m */; };
+		63DB8F8A1935BBC700B6DFC6 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8F891935BBC700B6DFC6 /* GameScene.m */; };
+		63DB8F981935BE4300B6DFC6 /* HudLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8F971935BE4300B6DFC6 /* HudLayer.m */; };
+		63DB8F9B1935BE7C00B6DFC6 /* GameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8F9A1935BE7C00B6DFC6 /* GameLayer.m */; };
+		63DB8FA91935BFE000B6DFC6 /* latin_industries.aifc in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8F9D1935BFE000B6DFC6 /* latin_industries.aifc */; };
+		63DB8FAA1935BFE000B6DFC6 /* pd_botdeath.caf in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8F9E1935BFE000B6DFC6 /* pd_botdeath.caf */; };
+		63DB8FAB1935BFE000B6DFC6 /* pd_herodeath.caf in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8F9F1935BFE000B6DFC6 /* pd_herodeath.caf */; };
+		63DB8FAC1935BFE000B6DFC6 /* pd_hit0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA01935BFE000B6DFC6 /* pd_hit0.caf */; };
+		63DB8FAD1935BFE000B6DFC6 /* pd_hit1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA11935BFE000B6DFC6 /* pd_hit1.caf */; };
+		63DB8FAE1935BFE000B6DFC6 /* pd_dpad-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA31935BFE000B6DFC6 /* pd_dpad-hd.png */; };
+		63DB8FAF1935BFE000B6DFC6 /* pd_dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA41935BFE000B6DFC6 /* pd_dpad.png */; };
+		63DB8FB01935BFE000B6DFC6 /* pd_sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA51935BFE000B6DFC6 /* pd_sprites.plist */; };
+		63DB8FB11935BFE000B6DFC6 /* pd_sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA61935BFE000B6DFC6 /* pd_sprites.pvr.ccz */; };
+		63DB8FB21935BFE000B6DFC6 /* pd_tilemap.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA71935BFE000B6DFC6 /* pd_tilemap.tmx */; };
+		63DB8FB31935BFE000B6DFC6 /* pd_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DB8FA81935BFE000B6DFC6 /* pd_tiles.png */; };
+		63DB8FB61935C36300B6DFC6 /* ActionSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8FB51935C36300B6DFC6 /* ActionSprite.m */; };
+		63DB8FB91935C3A900B6DFC6 /* RoleStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8FB81935C3A900B6DFC6 /* RoleStates.m */; };
+		63DB8FBD1935C85E00B6DFC6 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DB8FBC1935C85E00B6DFC6 /* Hero.m */; };
+		63F10D751936D892004A058A /* SimpleDPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F10D741936D892004A058A /* SimpleDPad.m */; };
+		63F10D7B1938255A004A058A /* SimpleEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F10D7A1938255A004A058A /* SimpleEventDispatcher.m */; };
+		63F10D7F1938668D004A058A /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F10D7E1938668D004A058A /* Robot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +243,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63CB1A5A19417B4B00BA1334 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		63DB8CDA1935BBC500B6DFC6 /* PompaDroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PompaDroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB8CDD1935BBC500B6DFC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		63DB8CDF1935BBC500B6DFC6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -649,10 +668,36 @@
 		63DB8F821935BBC700B6DFC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		63DB8F851935BBC700B6DFC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		63DB8F861935BBC700B6DFC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		63DB8F881935BBC700B6DFC6 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		63DB8F891935BBC700B6DFC6 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
-		63DB8F8B1935BBC700B6DFC6 /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
-		63DB8F8C1935BBC700B6DFC6 /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		63DB8F881935BBC700B6DFC6 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Classes/GameScene.h; sourceTree = "<group>"; };
+		63DB8F891935BBC700B6DFC6 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Classes/GameScene.m; sourceTree = "<group>"; };
+		63DB8F961935BE4300B6DFC6 /* HudLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudLayer.h; sourceTree = "<group>"; };
+		63DB8F971935BE4300B6DFC6 /* HudLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudLayer.m; sourceTree = "<group>"; };
+		63DB8F991935BE7C00B6DFC6 /* GameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLayer.h; sourceTree = "<group>"; };
+		63DB8F9A1935BE7C00B6DFC6 /* GameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLayer.m; sourceTree = "<group>"; };
+		63DB8F9D1935BFE000B6DFC6 /* latin_industries.aifc */ = {isa = PBXFileReference; lastKnownFileType = file; path = latin_industries.aifc; sourceTree = "<group>"; };
+		63DB8F9E1935BFE000B6DFC6 /* pd_botdeath.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pd_botdeath.caf; sourceTree = "<group>"; };
+		63DB8F9F1935BFE000B6DFC6 /* pd_herodeath.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pd_herodeath.caf; sourceTree = "<group>"; };
+		63DB8FA01935BFE000B6DFC6 /* pd_hit0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pd_hit0.caf; sourceTree = "<group>"; };
+		63DB8FA11935BFE000B6DFC6 /* pd_hit1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pd_hit1.caf; sourceTree = "<group>"; };
+		63DB8FA31935BFE000B6DFC6 /* pd_dpad-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pd_dpad-hd.png"; sourceTree = "<group>"; };
+		63DB8FA41935BFE000B6DFC6 /* pd_dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pd_dpad.png; sourceTree = "<group>"; };
+		63DB8FA51935BFE000B6DFC6 /* pd_sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pd_sprites.plist; sourceTree = "<group>"; };
+		63DB8FA61935BFE000B6DFC6 /* pd_sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = pd_sprites.pvr.ccz; sourceTree = "<group>"; };
+		63DB8FA71935BFE000B6DFC6 /* pd_tilemap.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pd_tilemap.tmx; sourceTree = "<group>"; };
+		63DB8FA81935BFE000B6DFC6 /* pd_tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pd_tiles.png; sourceTree = "<group>"; };
+		63DB8FB41935C36300B6DFC6 /* ActionSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSprite.h; sourceTree = "<group>"; };
+		63DB8FB51935C36300B6DFC6 /* ActionSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSprite.m; sourceTree = "<group>"; };
+		63DB8FB71935C3A900B6DFC6 /* RoleStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoleStates.h; sourceTree = "<group>"; };
+		63DB8FB81935C3A900B6DFC6 /* RoleStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoleStates.m; sourceTree = "<group>"; };
+		63DB8FBA1935C66600B6DFC6 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		63DB8FBB1935C85E00B6DFC6 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		63DB8FBC1935C85E00B6DFC6 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		63F10D731936D892004A058A /* SimpleDPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleDPad.h; sourceTree = "<group>"; };
+		63F10D741936D892004A058A /* SimpleDPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleDPad.m; sourceTree = "<group>"; };
+		63F10D791938255A004A058A /* SimpleEventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleEventDispatcher.h; sourceTree = "<group>"; };
+		63F10D7A1938255A004A058A /* SimpleEventDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleEventDispatcher.m; sourceTree = "<group>"; };
+		63F10D7D1938668D004A058A /* Robot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		63F10D7E1938668D004A058A /* Robot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -717,6 +762,7 @@
 				63DB8D1F1935BBC500B6DFC6 /* Libraries */,
 				63DB8F841935BBC700B6DFC6 /* Classes */,
 				63DB8F801935BBC700B6DFC6 /* Supporting Files */,
+				63CB1A5A19417B4B00BA1334 /* README.md */,
 			);
 			path = PompaDroid;
 			sourceTree = "<group>";
@@ -724,6 +770,8 @@
 		63DB8CF61935BBC500B6DFC6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63DB8F9C1935BFE000B6DFC6 /* Sounds */,
+				63DB8FA21935BFE000B6DFC6 /* Sprites */,
 				63DB8CF71935BBC500B6DFC6 /* Default.png */,
 				63DB8CF91935BBC500B6DFC6 /* Default@2x.png */,
 				63DB8CFB1935BBC500B6DFC6 /* Default-568h@2x.png */,
@@ -1540,14 +1588,54 @@
 		63DB8F841935BBC700B6DFC6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				63DB8FBA1935C66600B6DFC6 /* Defines.h */,
 				63DB8F851935BBC700B6DFC6 /* AppDelegate.h */,
 				63DB8F861935BBC700B6DFC6 /* AppDelegate.m */,
-				63DB8F881935BBC700B6DFC6 /* HelloWorldScene.h */,
-				63DB8F891935BBC700B6DFC6 /* HelloWorldScene.m */,
-				63DB8F8B1935BBC700B6DFC6 /* IntroScene.h */,
-				63DB8F8C1935BBC700B6DFC6 /* IntroScene.m */,
+				63DB8F881935BBC700B6DFC6 /* GameScene.h */,
+				63DB8F891935BBC700B6DFC6 /* GameScene.m */,
+				63F10D791938255A004A058A /* SimpleEventDispatcher.h */,
+				63F10D7A1938255A004A058A /* SimpleEventDispatcher.m */,
+				63DB8FB41935C36300B6DFC6 /* ActionSprite.h */,
+				63DB8FB51935C36300B6DFC6 /* ActionSprite.m */,
+				63DB8FBB1935C85E00B6DFC6 /* Hero.h */,
+				63DB8FBC1935C85E00B6DFC6 /* Hero.m */,
+				63F10D7D1938668D004A058A /* Robot.h */,
+				63F10D7E1938668D004A058A /* Robot.m */,
+				63DB8FB71935C3A900B6DFC6 /* RoleStates.h */,
+				63DB8FB81935C3A900B6DFC6 /* RoleStates.m */,
+				63F10D731936D892004A058A /* SimpleDPad.h */,
+				63F10D741936D892004A058A /* SimpleDPad.m */,
+				63DB8F961935BE4300B6DFC6 /* HudLayer.h */,
+				63DB8F971935BE4300B6DFC6 /* HudLayer.m */,
+				63DB8F991935BE7C00B6DFC6 /* GameLayer.h */,
+				63DB8F9A1935BE7C00B6DFC6 /* GameLayer.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		63DB8F9C1935BFE000B6DFC6 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				63DB8F9D1935BFE000B6DFC6 /* latin_industries.aifc */,
+				63DB8F9E1935BFE000B6DFC6 /* pd_botdeath.caf */,
+				63DB8F9F1935BFE000B6DFC6 /* pd_herodeath.caf */,
+				63DB8FA01935BFE000B6DFC6 /* pd_hit0.caf */,
+				63DB8FA11935BFE000B6DFC6 /* pd_hit1.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		63DB8FA21935BFE000B6DFC6 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				63DB8FA31935BFE000B6DFC6 /* pd_dpad-hd.png */,
+				63DB8FA41935BFE000B6DFC6 /* pd_dpad.png */,
+				63DB8FA51935BFE000B6DFC6 /* pd_sprites.plist */,
+				63DB8FA61935BFE000B6DFC6 /* pd_sprites.pvr.ccz */,
+				63DB8FA71935BFE000B6DFC6 /* pd_tilemap.tmx */,
+				63DB8FA81935BFE000B6DFC6 /* pd_tiles.png */,
+			);
+			path = Sprites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1622,26 +1710,37 @@
 				63DB8D0D1935BBC500B6DFC6 /* Icon-120.png in Resources */,
 				63DB8F111935BBC700B6DFC6 /* LICENSE_CCBReader.txt in Resources */,
 				63DB8D031935BBC500B6DFC6 /* Icon@2x.png in Resources */,
+				63DB8FAE1935BFE000B6DFC6 /* pd_dpad-hd.png in Resources */,
 				63DB8D151935BBC500B6DFC6 /* Icon-Small@2x.png in Resources */,
 				63DB8D071935BBC500B6DFC6 /* Icon-72@2x.png in Resources */,
+				63DB8FB01935BFE000B6DFC6 /* pd_sprites.plist in Resources */,
+				63DB8FB21935BFE000B6DFC6 /* pd_tilemap.tmx in Resources */,
 				63DB8CF81935BBC500B6DFC6 /* Default.png in Resources */,
 				63DB8D011935BBC500B6DFC6 /* Icon.png in Resources */,
+				63DB8FB31935BFE000B6DFC6 /* pd_tiles.png in Resources */,
 				63DB8D0F1935BBC500B6DFC6 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				63DB8FA91935BFE000B6DFC6 /* latin_industries.aifc in Resources */,
+				63DB8FAD1935BFE000B6DFC6 /* pd_hit1.caf in Resources */,
+				63DB8FAB1935BFE000B6DFC6 /* pd_herodeath.caf in Resources */,
 				63DB8CFE1935BBC500B6DFC6 /* Default-Landscape~ipad.png in Resources */,
+				63DB8FAA1935BFE000B6DFC6 /* pd_botdeath.caf in Resources */,
 				63DB8D131935BBC500B6DFC6 /* Icon-Small.png in Resources */,
 				63DB8D111935BBC500B6DFC6 /* Icon-Small-50.png in Resources */,
 				63DB8EFA1935BBC700B6DFC6 /* LICENSE_Kazmath.txt in Resources */,
 				63DB8D051935BBC500B6DFC6 /* Icon-72.png in Resources */,
 				63DB8E531935BBC600B6DFC6 /* LICENSE_cocos2d.txt in Resources */,
 				63DB8CFC1935BBC500B6DFC6 /* Default-568h@2x.png in Resources */,
+				63DB8FAC1935BFE000B6DFC6 /* pd_hit0.caf in Resources */,
 				63DB8D1C1935BBC500B6DFC6 /* iTunesArtwork in Resources */,
 				63DB8D171935BBC500B6DFC6 /* Icon-Spotlight-iOS7.png in Resources */,
 				63DB8D0B1935BBC500B6DFC6 /* Icon-76@2x.png in Resources */,
 				63DB8F7F1935BBC700B6DFC6 /* LICENSE_Chipmunk.txt in Resources */,
+				63DB8FB11935BFE000B6DFC6 /* pd_sprites.pvr.ccz in Resources */,
 				63DB8D191935BBC500B6DFC6 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				63DB8D091935BBC500B6DFC6 /* Icon-76.png in Resources */,
 				63DB8EDF1935BBC700B6DFC6 /* ChangeLog in Resources */,
 				63DB8D1E1935BBC500B6DFC6 /* iTunesArtwork@2x in Resources */,
+				63DB8FAF1935BFE000B6DFC6 /* pd_dpad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1655,6 +1754,7 @@
 				63DB8D8C1935BBC600B6DFC6 /* CCParticleBatchNode.m in Sources */,
 				63DB8F041935BBC700B6DFC6 /* CCBReader.m in Sources */,
 				63DB8EB41935BBC700B6DFC6 /* CCButton.m in Sources */,
+				63DB8FBD1935C85E00B6DFC6 /* Hero.m in Sources */,
 				63DB8E5F1935BBC600B6DFC6 /* OALAudioActions.m in Sources */,
 				63DB8EA41935BBC600B6DFC6 /* NSMutableArray+WeakReferences.m in Sources */,
 				63DB8E1E1935BBC600B6DFC6 /* CCGLView.m in Sources */,
@@ -1677,6 +1777,7 @@
 				63DB8D4F1935BBC500B6DFC6 /* ccDeprecated.m in Sources */,
 				63DB8E7E1935BBC600B6DFC6 /* ALContext.m in Sources */,
 				63DB8D5A1935BBC500B6DFC6 /* CCDrawNode.m in Sources */,
+				63DB8F981935BE4300B6DFC6 /* HudLayer.m in Sources */,
 				63DB8E2B1935BBC600B6DFC6 /* CCFileUtils.m in Sources */,
 				63DB8EAE1935BBC700B6DFC6 /* OALTools.m in Sources */,
 				63DB8D641935BBC500B6DFC6 /* ccGLStateCache.m in Sources */,
@@ -1707,7 +1808,7 @@
 				63DB8E421935BBC600B6DFC6 /* NSThread+performBlock.m in Sources */,
 				63DB8DCD1935BBC600B6DFC6 /* CCShaderCache.m in Sources */,
 				63DB8F0A1935BBC700B6DFC6 /* CCBSequenceProperty.m in Sources */,
-				63DB8F8D1935BBC700B6DFC6 /* IntroScene.m in Sources */,
+				63DB8F9B1935BE7C00B6DFC6 /* GameLayer.m in Sources */,
 				63DB8E111935BBC600B6DFC6 /* CCGLView.m in Sources */,
 				63DB8DD41935BBC600B6DFC6 /* CCSprite.m in Sources */,
 				63DB8D301935BBC500B6DFC6 /* CCActionInterval.m in Sources */,
@@ -1721,6 +1822,7 @@
 				63DB8E211935BBC600B6DFC6 /* CCWindow.m in Sources */,
 				63DB8D361935BBC500B6DFC6 /* CCActionProgressTimer.m in Sources */,
 				63DB8EEC1935BBC700B6DFC6 /* plane.c in Sources */,
+				63F10D7F1938668D004A058A /* Robot.m in Sources */,
 				63DB8E6F1935BBC600B6DFC6 /* OALSimpleAudio.m in Sources */,
 				63DB8D611935BBC500B6DFC6 /* CCGLProgram.m in Sources */,
 				63DB8F831935BBC700B6DFC6 /* main.m in Sources */,
@@ -1741,13 +1843,15 @@
 				63DB8DA51935BBC600B6DFC6 /* CCPhysicsShape.m in Sources */,
 				63DB8DAD1935BBC600B6DFC6 /* CCRenderTexture.m in Sources */,
 				63DB8D331935BBC500B6DFC6 /* CCActionManager.m in Sources */,
+				63DB8FB61935C36300B6DFC6 /* ActionSprite.m in Sources */,
 				63DB8DD71935BBC600B6DFC6 /* CCSprite9Slice.m in Sources */,
 				63DB8DE91935BBC600B6DFC6 /* CCTextureAtlas.m in Sources */,
 				63DB8EAA1935BBC700B6DFC6 /* OALAudioFile.m in Sources */,
 				63DB8DD01935BBC600B6DFC6 /* ccShaders.m in Sources */,
 				63DB8EE41935BBC700B6DFC6 /* matrix.c in Sources */,
+				63F10D751936D892004A058A /* SimpleDPad.m in Sources */,
 				63DB8DF61935BBC600B6DFC6 /* CCTiledMapLayer.m in Sources */,
-				63DB8F8A1935BBC700B6DFC6 /* HelloWorldScene.m in Sources */,
+				63DB8F8A1935BBC700B6DFC6 /* GameScene.m in Sources */,
 				63DB8EEA1935BBC700B6DFC6 /* neon_matrix_impl.c in Sources */,
 				63DB8D6F1935BBC500B6DFC6 /* CCLabelTTF.m in Sources */,
 				63DB8E241935BBC600B6DFC6 /* NSEvent+CC.m in Sources */,
@@ -1779,6 +1883,7 @@
 				63DB8E621935BBC600B6DFC6 /* OALUtilityActions.m in Sources */,
 				63DB8E0D1935BBC600B6DFC6 /* CCES2Renderer.m in Sources */,
 				63DB8EDD1935BBC700B6DFC6 /* aabb.c in Sources */,
+				63F10D7B1938255A004A058A /* SimpleEventDispatcher.m in Sources */,
 				63DB8F071935BBC700B6DFC6 /* CCBsequence.m in Sources */,
 				63DB8D681935BBC500B6DFC6 /* CCLabelAtlas.m in Sources */,
 				63DB8E031935BBC600B6DFC6 /* cocos2d.m in Sources */,
@@ -1790,6 +1895,7 @@
 				63DB8DB41935BBC600B6DFC6 /* CCResponderManager.m in Sources */,
 				63DB8D4C1935BBC500B6DFC6 /* CCConfiguration.m in Sources */,
 				63DB8E8F1935BBC600B6DFC6 /* ALWrapper.m in Sources */,
+				63DB8FB91935C3A900B6DFC6 /* RoleStates.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1935,6 +2041,8 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = PompaDroid/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1959,6 +2067,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = PompaDroid/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1989,6 +2098,7 @@
 				63DB8F921935BBC700B6DFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63DB8F931935BBC700B6DFC6 /* Build configuration list for PBXNativeTarget "PompaDroid" */ = {
 			isa = XCConfigurationList;
@@ -1997,6 +2107,7 @@
 				63DB8F951935BBC700B6DFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
