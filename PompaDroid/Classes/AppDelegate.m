@@ -47,12 +47,10 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    [[CCDirector sharedDirector] pause];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    [[CCDirector sharedDirector] resume];
 }
 
 - (void)applicationDidReceiveMemoryWarning:(UIApplication *)application

@@ -219,6 +219,7 @@
         return;
     }
     _hero.direction = direction;
+    [_hero changeState:_hero.walkState];
 }
 
 // -----------------------------------------------------------------------
